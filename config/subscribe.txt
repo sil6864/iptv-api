@@ -4,7 +4,7 @@
 https://github.boki.moe/raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
 https://github.boki.moe/raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://github.boki.moe/raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-https://github.boki.moe/raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
+https://github.boki.moe/raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx.m3u
 https://github.boki.moe/raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 https://github.boki.moe/raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
 https://github.boki.moe/raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
