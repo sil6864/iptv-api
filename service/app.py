@@ -176,13 +176,14 @@ def show_epg():
     return get_result_file_content(path=constants.epg_result_path, file_type="xml", show_content=False)
 
 
+
 @app.route("/epg/epg.gz")
 def show_epg_gz():
     return get_result_file_content(path=constants.epg_gz_result_path, file_type="gz", show_content=False)
 
 
 @app.route("/log/result")
-def show_log():
+def show_result_log(): # <-- 将函数名改为 show_result_log
     if os.path.exists(constants.result_log_path):
         with open(constants.result_log_path, "r", encoding="utf-8") as file:
             content = file.read()
@@ -194,7 +195,7 @@ def show_log():
 
 
 @app.route("/log/speed-test")
-def show_log():
+def show_speed_test_log(): # <-- 将函数名改为 show_speed_test_log
     if os.path.exists(constants.speed_test_log_path):
         with open(constants.speed_test_log_path, "r", encoding="utf-8") as file:
             content = file.read()
@@ -203,6 +204,9 @@ def show_log():
     response = make_response(content)
     response.mimetype = "text/plain"
     return response
+
+
+
 
 
 def get_channel_data(channel_id):
