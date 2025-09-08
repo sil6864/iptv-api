@@ -6,9 +6,9 @@ https://github.boki.moe/raw.githubusercontent.com/iptv-org/iptv/gh-pages/countri
 https://github.boki.moe/raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://github.boki.moe/raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/bbxx.m3u
 https://github.boki.moe/raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
-https://github.boki.moe/raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
 https://github.boki.moe/raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
 
+# https://github.boki.moe/raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
 # https://github.boki.moe/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 # https://github.boki.moe/raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
 # https://github.boki.moe/raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
