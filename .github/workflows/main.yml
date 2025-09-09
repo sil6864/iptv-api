@@ -9,10 +9,6 @@ on:
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
-    permissions:
-      contents: write
-      workflows: write
-    strategy:
     strategy:
       matrix:
         operating-system: [ 'ubuntu-latest' ]
