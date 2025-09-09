@@ -6,14 +6,10 @@ on:
       - master
       - dev
       - gd
-
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
-    permissions: # <-- 确保这里与 runs-on 和 strategy 同级，缩进为 4 个空格
-      contents: write # <-- 确保这里比 permissions 多 2 个空格，即 6 个空格
-      workflows: write # <-- 确保这里比 permissions 多 2 个空格，即 6 个空格
-    strategy: # <-- 确保这里与 permissions 和 runs-on 同级，缩进为 4 个空格
+    strategy:
       matrix:
         operating-system: [ 'ubuntu-latest' ]
     steps:
